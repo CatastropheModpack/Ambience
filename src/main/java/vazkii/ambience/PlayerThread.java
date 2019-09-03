@@ -11,11 +11,11 @@ import cpw.mods.fml.common.FMLLog;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.SoundCategory;
 import net.minecraft.client.settings.GameSettings;
-import javazoom.jl.player.AudioDevice;
-import javazoom.jl.player.JavaSoundAudioDevice;
-import javazoom.jl.player.advanced.AdvancedPlayer;
-import javazoom.jl.player.advanced.PlaybackEvent;
-import javazoom.jl.player.advanced.PlaybackListener;
+import javazoom_modified.jl.player.AudioDevice;
+import javazoom_modified.jl.player.JavaSoundAudioDevice;
+import javazoom_modified.jl.player.advanced.AdvancedPlayer;
+import javazoom_modified.jl.player.advanced.PlaybackEvent;
+import javazoom_modified.jl.player.advanced.PlaybackListener;
 
 public class PlayerThread extends Thread {
 
